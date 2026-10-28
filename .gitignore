@@ -1,0 +1,53 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode user-specific settings
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.moved-aside
+*.xcscmblueprint
+
+# Xcode build products
+DerivedData/
+build/
+*.hmap
+
+# Swift Package Manager
+.build/
+Packages/
+Package.pins
+
+# Python cache and test artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Private keys and signing credentials
+*.p12
+*.pfx
+*.mobileprovision
+*.provisionprofile
+*.privatekey
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo

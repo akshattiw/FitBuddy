@@ -1,0 +1,24 @@
+# Environment variables & secrets — NEVER commit
+.env
+*.env
+backend/.env
+backend/*.env
+
+# Python / Virtualenv
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+backend/.venv/
+backend/venv/
+.venv/
+venv/
+
+# macOS / Xcode / OS
+.DS_Store
+*.swp
+*.swo
+.build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
